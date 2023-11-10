@@ -1,0 +1,58 @@
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: $color-blanco;
+    margin-top: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .whatsapp {
+        color: $color-blanco;
+        border-color: $color-blanco;
+        &:hover {
+            background-color: #128C7E;
+            border: none;
+        }
+        
+    }
+
+    .instagram {
+        color: $color-blanco;
+        border-color: $color-blanco;
+        &:hover {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            border: none;
+        }
+    }
+
+    .divIzq, .divDer {
+        padding: 12px;
+    }
+
+    .mediosDePago {
+        img {
+            max-width: 300px;
+        }
+    }
+}
+
+.segundoFooter {
+    
+    text-align: center;
+    background-color: black;
+    p {
+        color: $color-blanco;
+        strong {
+            color: rgb(202, 43, 43);
+        }
+    }
+
+}

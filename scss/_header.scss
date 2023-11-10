@@ -1,0 +1,48 @@
+
+/* ENCABEZADO */
+
+.tamlogo {
+    width: 150px;
+  }
+  
+  .encabezado {
+    background-color: rgba(0, 0, 0, 0.938);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .navcolor a {
+    color: $color-blanco;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  
+    &:hover {
+      color: magenta;
+    }
+  }
+  
+  .color a {
+    color: black;
+  
+    &:hover {
+      color: magenta;
+    }
+  
+    &:active {
+      background-color: $color-blanco;
+    }
+  }
+  
+  .centrarNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-fluid {
+    padding: 0;
+  }
+  

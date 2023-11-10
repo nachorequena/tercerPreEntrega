@@ -1,0 +1,16 @@
+/* CONTACTO */
+
+.tituloContacto {
+    @include titulo;
+  }
+  
+  .tituloFormulario {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+.divContacto {
+    display: flex;
+    align-items: center;
+  }
